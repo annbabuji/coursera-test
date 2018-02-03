@@ -1,0 +1,124 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+h1 {
+  margin: 2px;
+  color: black;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 24px;
+}
+h2 {
+  
+  border: 2px solid black;
+  padding: 1%;
+  font-size:16px;
+  font-weight:bold;
+  width: 20%;
+  height: 2%;
+  margin-right: auto;
+  margin-left: 75%;
+  text-align: center;
+  font-family: Helvetica;
+}
+h2.item-a
+{
+ background-color: #0066CC; 
+}
+h2.item-b
+{
+ background-color: #00994C; 
+}
+h2.item-c
+{
+ background-color: #ff6666; 
+}
+p {
+  
+  background-color: #999999;
+  width: 90%;
+  height:auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+:target {
+ background-color: #fff2cc;      
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -1px;
+}
+/* END HEADER */
+
